@@ -1,4 +1,4 @@
-// Declaração da variável global
+
 var resultado = 0;
 
 // Função para exibir o resultado na tela
@@ -13,10 +13,10 @@ function calcular() {
   var km = Number(document.getElementById("input1").value);
   var gas = Number(document.getElementById("input2").value);
 
-  // Realiza a conta
+ 
   resultado = km / gas;
 
-  // Exibe o resultado na tela
+
   exibirResultado();
 }
 
