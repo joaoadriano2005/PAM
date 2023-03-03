@@ -10,11 +10,11 @@ function exibirResultado() {
 // Função para realizar o cálculo
 function calcular() {
   // Lê os valores dos inputs
-  var a = Number(document.getElementById("input1").value);
-  var b = Number(document.getElementById("input2").value);
+  var km = Number(document.getElementById("input1").value);
+  var gas = Number(document.getElementById("input2").value);
 
   // Realiza a conta
-  resultado = a / b;
+  resultado = km / gas;
 
   // Exibe o resultado na tela
   exibirResultado();
