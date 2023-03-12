@@ -7,15 +7,14 @@ function exibirResultado() {
 }
 
 // Função para realizar o cálculo
-function calcular() {
+function calcular(kg,alt) {
   // Lê os valores dos inputs
   var alt = document.getElementById("input1").value;
   var kg = document.getElementById("input2").value;
 
-  qua=alt*alt
-  resultado = kg/qua;
-
-
+  alt=alt/100
+  resultado = kg/(alt*alt)
+  resultado=resultado.toFixed(1)
   exibirResultado();
 }
 
