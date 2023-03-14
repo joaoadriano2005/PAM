@@ -1,5 +1,4 @@
 
-var imc = 0;
 // Função para exibir o resultado na tela
 function exibirResultado() {
   interpretarIMC(imc);
